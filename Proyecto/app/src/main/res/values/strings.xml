@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name"></string>
-
     <string name="hint_nombre">*Nombre</string>
     <string name="hint_apellido">*Apellido</string>
     <string name="hint_celular">*Celular</string>

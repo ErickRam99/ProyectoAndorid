@@ -50,7 +50,7 @@
             android:id="@+id/viewPrecioPromo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="/hint_preciopromo" />
+            android:text="preciopromo" />
 
         <EditText
             android:id="@+id/txtPrecioPromo1"
@@ -84,7 +84,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="104dp"
             android:background="@drawable/custom_buttons"
-            android:text="btn_guarda"
+            android:text="Guardar"
             android:textSize="15sp" />
 
     </LinearLayout>

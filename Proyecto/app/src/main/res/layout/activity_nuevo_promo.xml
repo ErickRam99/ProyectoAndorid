@@ -128,7 +128,7 @@
             android:id="@+id/btnVolver1"
             android:layout_width="182dp"
             android:layout_height="48dp"
-            android:layout_marginBottom="24dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/custom_buttons"
             android:text="@string/btn_volverMenu"
             app:layout_constraintBottom_toBottomOf="parent"
