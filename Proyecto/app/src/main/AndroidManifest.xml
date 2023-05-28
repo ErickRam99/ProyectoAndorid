@@ -1,25 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="edu.sv.proyecto" >
 
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name="edu.sv.proyecto.MostrarUsuarios"
+            android:parentActivityName="edu.sv.proyecto.ListaUsuarios">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sv.proyecto.ListaUsuarios" />
+        </activity>
+        <activity
+            android:name="edu.sv.proyecto.MostrarPromociones"
+            android:parentActivityName="edu.sv.proyecto.ListaPromociones">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sv.proyecto.ListaPromociones" />
+        </activity>
+
+        <activity
+            android:name="edu.sv.proyecto.MostrarRopa"
+            android:parentActivityName="edu.sv.proyecto.ListaRopa">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sv.proyecto.ListaRopa" />
+        </activity>
+        <activity
+            android:name="edu.sv.proyecto.EditarUsuarios"
+            android:parentActivityName="edu.sv.proyecto.ListaUsuarios">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sv.proyecto.ListaUsuarios" />
+        </activity>
+        <activity
+            android:name="edu.sv.proyecto.EditarPromociones"
+            android:parentActivityName="edu.sv.proyecto.ListaPromociones">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sv.proyecto.ListaPromociones" />
+        </activity>
+        <activity
+            android:name="edu.sv.proyecto.EditarRopa"
+            android:parentActivityName="edu.sv.proyecto.ListaRopa">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.sv.proyecto.ListaRopa" />
+        </activity>
+        <activity
+            android:name="edu.sv.proyecto.ListaUsuarios"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.ListaPromociones"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.ListaRopa"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.NuevoUsuario"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.NuevoPromo"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.NuevaRopa"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.MenuPrincipal"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.Login"
+            android:exported="false" />
+        <activity
+            android:name="edu.sv.proyecto.PantallaLoad"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="edu.sv.proyecto.PantallaLoad" />
+
     </application>
 
 </manifest>

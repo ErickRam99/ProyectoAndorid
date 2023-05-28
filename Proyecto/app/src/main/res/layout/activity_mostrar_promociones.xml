@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MostrarPromociones"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:background="#AA9B6D">
+
+        <TextView
+            android:id="@+id/viewNombrePromocion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/hint_nombrepromo" />
+
+        <EditText
+            android:id="@+id/txtNombrePromocion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewNombrePromocion"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewDescripcionPromocion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/hint_descpromo" />
+
+        <EditText
+            android:id="@+id/txtDescripcionPromo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewDescripcionPromocion"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewPrecioPromo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/hint_preciopromo" />
+
+        <EditText
+            android:id="@+id/txtPrecioPromo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:labelFor="@+id/viewPrecioPromo"
+            android:textSize="18sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEditar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic__edit"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEliminar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/icdelete" />
+
+        <Button
+            android:id="@+id/btnGuarda1"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="104dp"
+            android:background="@drawable/custom_buttons"
+            android:text="btn_guarda"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

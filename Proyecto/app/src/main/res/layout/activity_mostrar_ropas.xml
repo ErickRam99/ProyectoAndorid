@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MostrarRopa"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:background="#AA9B6D">
+
+        <TextView
+            android:id="@+id/viewNombreEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/hint_nombreentrada" />
+
+        <EditText
+            android:id="@+id/txtNombreEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewNombreEntrada"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewDescripcionEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/hint_descentrada" />
+
+        <EditText
+            android:id="@+id/txtDescripcionEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:labelFor="@+id/viewDescripcionEntrada"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewPrecioEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hint_precioentrada" />
+
+        <EditText
+            android:id="@+id/txtPrecioEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:labelFor="@+id/viewPrecioEntrada"
+            android:textSize="18sp" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEditar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/ic__edit"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabEliminar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:clickable="true"
+            android:src="@drawable/icdelete" />
+
+        <Button
+            android:id="@+id/btnGuarda2"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="104dp"
+            android:background="@drawable/custom_buttons"
+            android:text="btn_guarda"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

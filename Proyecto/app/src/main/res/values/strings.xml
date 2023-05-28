@@ -1,3 +1,30 @@
 <resources>
-    <string name="app_name">Proyecto</string>
+    <string name="app_name"></string>
+
+    <string name="hint_nombre">*Nombre</string>
+    <string name="hint_apellido">*Apellido</string>
+    <string name="hint_celular">*Celular</string>
+    <string name="hint_usuario">*Usuario</string>
+    <string name="hint_email">*Correo Electronico</string>
+    <string name="hint_password">*Contraseña</string>
+    <string name="btn_guardar">Registrarse</string>
+    <string name="btn_listausuarios">Listado usuarios</string>
+
+    <string name="hint_nombrepromo">*Nombre promoción</string>
+    <string name="hint_descpromo">*Descripción promoción</string>
+    <string name="hint_preciopromo">*Precio promoción</string>
+    <string name="btn_listaPromo">Lista Promociones</string>
+
+    <string name="hint_nombreentrada">*Nombre entrada</string>
+    <string name="hint_descentrada">*Descripción entrada</string>
+    <string name="hint_precioentrada">*Precio entrada</string>
+    <string name="btn_listaEntradas">Lista Entradas</string>
+
+
+    <string name="btn_guarda">Guardar registro</string>
+
+    <string name="btn_guardaPromo">Guardar promocion</string>
+    <string name="btn_guardaEntrada">Guardar entrada</string>
+
+    <string name="btn_volverMenu">Volver al menú</string>
 </resources>
