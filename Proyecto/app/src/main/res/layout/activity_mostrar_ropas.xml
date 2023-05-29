@@ -84,7 +84,7 @@
             android:layout_gravity="center"
             android:layout_marginBottom="104dp"
             android:background="@drawable/custom_buttons"
-            android:text="btn_guarda"
+            android:text="Guardar"
             android:textSize="15sp" />
 
     </LinearLayout>

@@ -205,7 +205,7 @@
         <Button
             android:id="@+id/btnRegirstrar"
             android:layout_width="155dp"
-            android:layout_height="dp"
+            android:layout_height="150dp"
             android:layout_marginBottom="132dp"
             android:background="@drawable/custom_buttons"
             android:text="guardar"
