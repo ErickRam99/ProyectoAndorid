@@ -20,7 +20,7 @@
             android:id="@+id/viewNombrePromocion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="/hint_nombrepromo" />
+            android:text="nombrepromo" />
 
         <EditText
             android:id="@+id/txtNombrePromocion1"
@@ -35,7 +35,7 @@
             android:id="@+id/viewDescripcionPromocion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="/hint_descpromo" />
+            android:text="descpromo" />
 
         <EditText
             android:id="@+id/txtDescripcionPromo1"

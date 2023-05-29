@@ -205,13 +205,13 @@
         <Button
             android:id="@+id/btnRegirstrar"
             android:layout_width="155dp"
-            android:layout_height="150dp"
+            android:layout_height="35dp"
             android:layout_marginBottom="132dp"
             android:background="@drawable/custom_buttons"
             android:text="guardar"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent" />
 
         <Button
@@ -227,7 +227,7 @@
         <Button
             android:id="@+id/btnSalir3"
             android:layout_width="150dp"
-            android:layout_height="50dp"
+            android:layout_height="35dp"
             android:layout_marginBottom="25dp"
             android:background="@drawable/custom_buttons"
             android:text="volverMenu"

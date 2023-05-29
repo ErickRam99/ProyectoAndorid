@@ -20,7 +20,7 @@
             android:id="@+id/viewNombreEntrada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="/hint_nombreentrada" />
+            android:text="Nombre Ropa" />
 
         <EditText
             android:id="@+id/txtNombreEntrada"
@@ -35,7 +35,7 @@
             android:id="@+id/viewDescripcionEntrada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="/hint_descentrada" />
+            android:text="descripcion Ropa" />
 
         <EditText
             android:id="@+id/txtDescripcionEntrada"
@@ -50,7 +50,7 @@
             android:id="@+id/viewPrecioEntrada"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="hint_precioentrada" />
+            android:text="precio Ropa" />
 
         <EditText
             android:id="@+id/txtPrecioEntrada"
